@@ -147,7 +147,7 @@ function Header() {
 }
 ```
 
-Even better, we can do the same with the image that's being used here. We should avoid load images though "<img src="src/assets/react-core-concepts.png" alt="Stylized atom" />". Instead... We should use an import statement.
+Even better, we can do the same with the image that's being used here. We should avoid load images though "img src="src/assets/react-core-concepts.png alt="Stylized atom" />". Instead... We should use an import statement.
 
 ```
 import reactImg from './assets/react-core-concepts.png'
@@ -174,7 +174,7 @@ function Header() {
 }
 ```
 
-# $\color{darkgreen}{\textrm{Using and Outputting Dynamic Values}}$
+# $\color{darkgreen}{\textrm{Props}}$
 
 
 ![Abhinandan Trilokia](https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg)
